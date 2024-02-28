@@ -2,21 +2,6 @@
 :root {
 
 }
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.roboto-medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
 html {
   box-sizing: border-box;
 }
@@ -25,9 +10,79 @@ html {
 }
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .container {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+}
+.features {
+  text-align: center;
+  padding: 170px 0;
+}
+.title {
+  color: rgb(61, 79, 159);
+  font-weight: 500;
+}
+.title h2 {
+  margin: 0 0 19px;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.title p {
+  margin: 0 0 94px;
+  font-size: 24px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 67px;
+  flex-wrap: wrap;
+  margin-bottom: 142px;
+}
+.item {
+  width: 140px;
+}
+.item svg {
+  margin-bottom: 29px;
+}
+.item h3 {
+  color: rgb(64, 116, 248);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 33px;
+}
+.item p {
+  color: rgb(173, 179, 203);
+  font-size: 11px;
+  font-weight: 500;
+  margin: 0;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 111px;
+  justify-content: center;
+}
+.buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 113px;
+  height: 43px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.buttons-readmore {
+  background: rgb(255, 215, 215);
+  color: rgb(212, 63, 63);
+}
+.buttons-getstarted {
+  background: rgb(210, 225, 255);
+  color: rgb(58, 121, 255);
 }
